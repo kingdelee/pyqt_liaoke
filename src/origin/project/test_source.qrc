@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="lk">
+    <file>source/shulan.gif</file>
+    <file>source/puke.png</file>
+  </qresource>
+</RCC>

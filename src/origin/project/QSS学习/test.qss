@@ -1,0 +1,37 @@
+
+QWidget:!focus {
+    border: 2px dotted green;
+}
+
+QWidget:hover {
+    font-size: 16px;
+    background-color: lightgray;
+}
+
+QPushButton:hover {
+    border: 2px solid red;
+}
+QPushButton:pressed {
+    border: 2px dotted orange;
+}
+
+QCheckBox:checked, QCheckBox:hover {
+    background-color: red;
+
+}
+
+QCheckBox::indicator {
+    width: 40px;
+    height: 40px;
+}
+QCheckBox::indicator:on {
+    image: url(../source/checked.png);
+}
+
+QCheckBox::indicator:indeterminate {
+    image: url(../source/mid_pic.png);
+}
+
+QCheckBox::indicator:off {
+    image: url(../source/uncheck.png);
+}

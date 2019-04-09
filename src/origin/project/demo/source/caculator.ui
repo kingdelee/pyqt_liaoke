@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>417</width>
+    <height>410</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(221, 221, 221);</string>
+     </property>
+     <property name="text">
+      <string>0.0</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="Btn" name="pushButton_15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>AC</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>control</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="Btn" name="pushButton_14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>+/-</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>control</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="Btn" name="pushButton_13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>%</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>control</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="Btn" name="pushButton_20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>/</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>operator</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="Btn" name="pushButton_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="Btn" name="pushButton_7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="Btn" name="pushButton_8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="Btn" name="pushButton_17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>*</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>operator</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="Btn" name="pushButton_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="Btn" name="pushButton_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="Btn" name="pushButton_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="Btn" name="pushButton_19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>operator</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="Btn" name="pushButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="Btn" name="pushButton_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="Btn" name="pushButton_5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="Btn" name="pushButton_18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>+</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>operator</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0" colspan="2">
+      <widget class="Btn" name="pushButton_11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="Btn" name="pushButton_10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>.</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>num</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="Btn" name="pushButton_16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+       <property name="type" stdset="0">
+        <string>equal</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Btn</class>
+   <extends>QPushButton</extends>
+   <header>Custom_Widget</header>
+   <slots>
+    <signal>title_clicked()</signal>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_15</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>7</x>
+     <y>114</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>155</x>
+     <y>-15</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>234</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>-11</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>347</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>412</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_17</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>411</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>174</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>414</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>266</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>413</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>413</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>64</x>
+     <y>313</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>147</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>411</x>
+     <y>357</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_18</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>338</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>410</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>378</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>15</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>372</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>240</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_16</sender>
+   <signal>title_clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>379</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>342</x>
+     <y>401</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_clicked()</slot>
+ </slots>
+</ui>

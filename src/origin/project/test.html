@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="login">
+    <input type="text" id="name"> <span class="name" style="display: none">需要提示</span>
+    <input type="number" id="age">
+    <input type="button" value="提交" onclick="console.log(Tool.checkForm('login'));">
+</form>
+
+</body>
+</html>
+
+<script>
+    class Tool {}
+
+    /**
+     * @param form_id 表单ID 可以为空
+     * @param check_ids 需要检测的 输入框ID数组 可以为空
+     * @returns {{result: boolean, null_ids: Array}} result: 是否全部填写; null_ids: 没填写的标签IDs
+     */
+    Tool.checkForm = (form_id, check_ids)=>{
+        // 1. 定义两个记录结果的变量
+        let null_ids = [];
+        let all_not_null_flag = true;
+
+        // 2. 根据传递的参数缺失, 来判定最终需要检测的元素列表
+        let check_children = [];
+        // 2.1 如果什么都没传, 则判定所有的input标签
+        if(form_id == null && check_ids == null) {
+            check_children = document.getElementsByTagName("input")
+        }else if(check_ids == null) {
+            // 2.2 如果只传了表单ID, 判定表单中所有的输入字段
+            check_children = document.getElementById(form_id).getElementsByTagName("input")
+        } else {
+            // 2.3 如果只传了需要检测的ID, 则从整个文档中检索所有相关元素
+            for (let j = 0; j < check_ids.length; j++) {
+                let child = document.getElementById(check_ids[j]);
+                check_children.push(child)
+            }
+        }
+        // 3. 根据需要验证的元素, 来判定是否为空, 并记录
+        for (let i = 0; i < check_children.length; i++) {
+            let child = check_children[i];
+            if (child.value == "" || child.value == null) {
+                null_ids.push(child.id)
+                all_not_null_flag = false;
+            }
+        }
+        // 4. 返回结果
+        return {"result": all_not_null_flag, "null_ids": null_ids}
+    };
+
+    document.getElementsByClassName()
+
+</script>

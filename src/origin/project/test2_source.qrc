@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="liaoke">
+    <file>source/border_test.png</file>
+    <file>source/border_test_num.png</file>
+    <file>source/checked.png</file>
+    <file>source/desktop.png</file>
+    <file>source/down.png</file>
+  </qresource>
+  <qresource prefix="lk">
+    <file>source/open_pic.png</file>
+    <file>source/rose.png</file>
+    <file>source/uncheck.png</file>
+    <file>source/up.png</file>
+  </qresource>
+</RCC>
